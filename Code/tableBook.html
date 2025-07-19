@@ -1,0 +1,184 @@
+<script>
+  function alexa() {
+    // Hall selection
+    const hall = document.querySelector('input[name="Gen"]:checked');
+    if (!hall) {
+      alert("Please select a hall type (AC/Non AC).");
+      return false;
+    }
+
+    // Meal selection
+    const meal = document.querySelector('input[name="eat"]:checked');
+    if (!meal) {
+      alert("Please select a meal (Breakfast/Lunch/Dinner).");
+      return false;
+    }
+
+    // Members
+    const members = document.getElementById("mem").value.trim();
+    if (members === "" || isNaN(members) || parseInt(members) <= 0) {
+      alert("Please enter a valid number of members.");
+      return false;
+    }
+
+    // Chairs
+    const chairs = document.getElementById("chair").value.trim();
+    if (chairs === "" || isNaN(chairs) || parseInt(chairs) <= 0) {
+      alert("Please enter a valid number of chairs.");
+      return false;
+    }
+
+  const contact = document.getElementById("phone").value.trim();
+const contactPattern = /^[0-9]{10}$/;
+if (!contactPattern.test(contact)) {
+  alert("Please enter a valid 10-digit contact number.");
+  return false;
+}
+
+
+    alert("Booking submitted successfully!");
+    return true;
+  }
+</script>
+
+<html>
+    <head>
+        <title>
+        Book a Table
+        </title>
+        <link rel="stylesheet" type="text/css" href="tableBook.css">
+    </head>
+    <body>
+            <div class="main">
+        <div class="Menubar">
+            <a href="main.html"><img src="img/logo.jpg" id="logo1"></a>
+       <a href="main.html"> <p id="p1">HOME</p></a>
+        <select onchange="window.location.href = this.value;" id="p2">
+        <option value="" disabled selected>MENU</option>
+        <option value="soup.html">Soup</option>
+            <option value="Starter1.html">Starter</a></option>
+            <option value="fast food.html">Fast Food</option>
+            <option value="Cold Drink.html">Cold Drink</option>
+            <option value="veg.html">Veg</option>
+            <option value="non veg.html">None Veg</option>
+            <option value="sweet.html">Sweet</option>
+            <option value="cake.html">Cake</option>  
+            <option value="ice-cream.html">Ice-Cream</option>
+    </select>
+    <a href="about us.html"><pre id="p3">ABOUT  US</pre></a>
+    <a href="contact.html"><p id="p4">CONTACT</p></a>
+    <a href="map.html"><p id="p5">LOCATION</p></a>
+        </div>
+        </div>
+
+        <img src="img/resto.jpg" id="image11"></div>
+<form>
+<div id="box">
+   
+   <div id="hall"> <h2>Which hall do you want? :</h2>
+    <p><b>
+        <input type="radio" id="AC" name="Gen" value="AC Hall" /> AC Hall
+        <input type="radio" id="non AC" name="Gen" value="Non AC Hall" />Non AC Hall
+        <p id="n7"></p>
+   </b> </p>
+</div>
+
+<div id="eat">
+    <h2>What would you likke ? :</h2>
+<p><b>
+    <input type="radio" id="bre" name="eat" value="Breakfast" />Breakfast
+    <input type="radio" id="lunch" name="eat" value="Lunch" />Lunch
+    <input type="radio" id="dinner" name="eat" value="Dinner" />Dinner
+</b></p>
+</div>
+
+<div id="table"><h2>Number of Members :</h2>
+ <p><input type="number" id="mem" name="" value="" /></p>
+</div>
+
+<div id="chair100">
+<h2>number of chair :</h2>
+<p><input type="number" id="chair" name="" value="" /></p>
+</div>
+
+<div id="chair200">
+    <h2>Contact number :</h2>
+    <p><input type="number" id="phone" name="" value="" /></p>
+    </div>
+
+</div>
+</form>
+<input type="button" id="sub" value="SUBMIT" onclick="return alexa()" />
+
+
+<div id="visit">
+    <div class="visit11"><img src="img/visit.png" id="image1"></div>  <h1>Visit Us</h1>
+   <div class="visit12"> <p id="text">1st Floor,Swanik acade, Opp.Vrdan tower,Pragatinagar to K.K.Nagar road,Naranpura,Ahemadabad-380013.</p>
+</div></div>
+
+<div id="contact">
+    <div class="contact11"><img src="img/contact.jpg" id="image2"></div> <h1>Contact Us</h1>
+    <pre>9978673429
+9978679429</pre></div>
+
+    <div id="email">
+        <div class="email11"><img src="img/email.jpg" id="image3"></div> <h1>Email Us</h1>
+<p>primebanquetrestaurant@gmail.com</p></div>
+
+        <div class="footer">
+            <div id="f1">
+                <p>RESTURANT<br><br>
+                    <a href="main.html" id="home"> Home<br></a>
+                    <a href="main.html" id="menu">Menu<br></a>
+                     <a href="about us.html" id="about">About us<br></a>
+                     <a href="con.html" id="con">Contact<br></a>
+                     <a href="map.html" id="location">Location<br></a>
+                </p>
+            </div>
+            <div id="f2">
+                <p>ABOUT US<br><br>
+                Story<br>
+                Team<br>
+                Information<br>
+                Mission<br>
+                Review<br>
+                </p>
+            </div>
+            <div id="f3">
+                <p>MY ACCOUNT<br><br>
+                Profile<br>
+                Pay Account<br>
+                Purchese<br>
+                Your Account<br>
+                Private Policy<br>
+                </p>
+            </div>
+            <div id="f4">
+                <p>CUSTOMER SERVICE<br><br>
+                Shipping Policy<br>
+                Compensation First<br>
+                My Account<br>
+                Return Policy<br>
+                Contact Us<br>
+                </p>
+            </div>
+            <div id="f5">
+                <p>FOLLOW US<br><br>
+                Google<br>
+                Facebook<br>
+                Instagram<br>
+                Twitter<br>
+                </p>
+            </div><br><br>
+            <a href="https://www.google.com/"><img src="img/google.jpg" id="l1"></a>
+                <a href="https://www.facebook.com/"><img src="img/facebook-logo.avif" id="l2"></a>
+                <a href="https://www.instagram.com/"><img src="img/instagram.jpg" id="l3"></a>
+                <a href="https://twitter.com/"><img src="img/twitter.jpg" id="l4"></a>
+            </div>
+        </div>
+            </div>
+        </div>
+        </body>
+        </html>
+            </body>
+        </html>
