@@ -1,0 +1,339 @@
+main
+{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+}
+.Menubar
+{
+    border: 1px solid black;
+    height: 100px;
+    width: auto;
+    margin: right 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    box-shadow: wheat 4px 4px 60px;
+}
+#logo1
+{
+   
+    height: 70px;
+    width: 170px;
+    margin-left: -680px;
+    position: absolute;
+    margin-top: -34px;
+}
+#p1 
+{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: 21px;
+    color: white;
+    margin-left: -140px;
+    margin-top: -10px;
+    position: absolute;
+}
+#p1:hover
+{
+    color: black;
+    background-color: rgb(204, 198, 198);
+}
+#p2
+{
+    border: 1px solid black;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin-left: 140px;
+    position: absolute;
+}
+#p2:hover
+{
+    color: black;
+    background-color: rgb(204, 198, 198);   
+}
+#p3
+{
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin-left: 210px;
+    margin-top: -12px;
+    position: absolute;
+}
+#p3:hover
+{
+    color: black;
+    background-color: rgb(204, 198, 198);   
+}
+#p4
+{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    margin-left: 400px;
+    margin-top: -12px;
+    position: absolute;
+}
+#p4:hover
+{
+    color: black;
+    background-color: rgb(204, 198, 198);
+}
+#p5
+{
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-left: 570px;
+    margin-top: -12px;
+    position: absolute;
+}
+#p5:hover
+{
+    color: black;
+    background-color: rgb(204, 198, 198);
+}
+ #img1{
+         height: 580px;
+         width: 1500px;
+         margin-top: 50px;
+         box-shadow: black 2px 2px 20px;
+
+ }
+ .text{
+         display: flex;
+         justify-content: center;
+ }
+#text11{
+        margin-top: 70px;
+        font-size: 23px;
+        width: 1000px;
+}
+#open{
+        border: 1px solid black;
+        height: 500px;
+        width: 1300px;
+        margin-left: 100px;
+        margin-top: 40px;
+        color: white;
+        background-color: black;
+        font-size: 14px;
+        padding-bottom: 25px;
+}
+#open >h1
+{
+           margin-left: 90px;
+           margin-top: 300px;
+}
+#op1
+{
+          font-size: 25px;
+          margin-left: 150px;
+          margin-top: -140px;
+          color: white;
+}
+#op2
+{
+    font-size: 25px;
+    margin-left: 145px;
+    margin-top: -20px;
+    color: white;
+}
+#visit
+{
+    border: 0px solid black;
+    height: 120px;
+    width: 445px;
+}
+#visit1
+{
+    border: 0px solid black;
+    height: 50px;
+    width: 50px;
+    margin-left: 135px;
+    margin-top: -420px;
+    border-radius: 11px;
+}
+#visit > h1
+{
+    margin-top: -415px;
+    margin-left: 200px;
+    color: white;
+}
+#visit2
+{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 200px;
+    color: white;
+}
+#contact
+{
+    border: 0px solid black;
+    height: 120px;
+    width: 1000px;   
+}
+#contact1
+{
+    border: 0px solid black;
+    height: 50px;
+    width: 50px;
+    margin-top: -540px;
+    margin-left: 550px;
+    border-radius: 47%;
+}
+#contact > h1
+{
+    margin-top: -535px;
+    margin-left: 620px;
+    color: white;
+}
+#contact2
+{
+    font-size: 20px;
+    margin-left: 620px;
+    color: white;
+}
+#email
+{
+    border: 0px solid black;
+    height: 120px;
+    width: 1000px;   
+}
+#email1
+{
+    border: 0px solid black;
+    height: 50px;
+    width: 50px;
+    margin-top: -450px;
+    margin-left: 550px;
+    border-radius: 50%;
+}
+#email > h1
+{
+    margin-top: -440px;
+    margin-left: 620px;
+    color: white;
+}
+#email2
+{
+    font-size: 20px;
+    margin-left: 610px;
+    color: white;
+}
+#map
+{
+    border: 1px solid black;
+    height: 522px;
+    width: 458px;
+    margin-top: -833px;
+    margin-left: 940px;
+}
+
+.footer
+{
+    border: 1px solid black;
+    height: 260px;
+    width: auto;
+    margin-top: 155px;
+    background-color: black;
+    box-shadow: wheat 4px 4px 60px 4px;
+}
+#f1
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 90px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home{
+       color: white;
+       text-decoration-line: none;
+}
+#menu{
+    color: white;
+    text-decoration-line: none;
+}
+#about{
+    color: white;
+    text-decoration-line: none;
+}
+#con{
+    color: white;
+    text-decoration-line: none;
+}
+#location{
+    color: white;
+    text-decoration-line: none;
+}
+#f2
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 350px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#f3
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 640px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#f4
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 950px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#f5
+{
+    font-size: 19px;
+    color: white;
+    margin-left: 1290px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#l1
+{
+    height: 38px;
+    width: 100px;
+    margin-left: 360px;
+    position: absolute;
+}
+#l2
+{
+    height: 38px;
+    width: 100px;
+    margin-left: 560px;
+    position: absolute;
+}
+#l3
+{
+    height: 38px;
+    width: 100px;
+    margin-left: 760px;
+    position: absolute;
+}
+#l4
+{
+    height: 38px;
+    width: 100px;
+    margin-left: 960px;
+    position: absolute;
+}
